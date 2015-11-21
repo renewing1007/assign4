@@ -288,7 +288,7 @@ enemyX+=3;
 for(int i=0; i<8;i++){
 if(fighterx1+fighterImg.width>enemy_X[i]  && fighterx1 < enemy_X[i]+enemyImg.width&& 
  enemy_Y[i] <fightery1+fighterImg.height && fightery1 < enemy_Y[i]+enemyImg.height){
- //hp_x-=38;
+ hp_x-=38;
 detect=true;
  disappear=i;
 }if(detect==true){
