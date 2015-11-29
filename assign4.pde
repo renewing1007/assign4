@@ -318,11 +318,11 @@ break;
  
   case 2:
   background(0);
-  image(end1Img,0,0);
+  image(end2Img,0,0);
   if(mouseY>300 && mouseY<350){
     if(mouseX>200 && mouseX<445){
    background(0);
-  image(end2Img,0,0);
+  image(end1Img,0,0);
    if(mousePressed){
   hp_x=38;
    fighterx1=width-50;
