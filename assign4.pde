@@ -1,3 +1,4 @@
+
                           /* please implement your assign1 code in this file. */
   PImage fighterImg;
   PImage treasureImg;
@@ -385,6 +386,7 @@ enemyy=random(2*blockY,height-blockY);
     } 
    }
   }
+
  
  
  
